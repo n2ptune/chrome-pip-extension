@@ -1,0 +1,26 @@
+{
+  "name": "Twitch PIP Helper",
+  "version": "0.0.1",
+  "description": "Helper that using pip mode in twitch.tv",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": [
+      "execute.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "s"
+  },
+  "commands": {
+    "pip": {
+      "suggested_key": {
+        "default": "Alt+P"
+      },
+      "description": "Turn on the pip mode"
+    }
+  },
+  "manifest_version": 2
+}
