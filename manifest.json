@@ -1,7 +1,7 @@
 {
-  "name": "Twitch PIP Helper",
+  "name": "Chrome pip helper",
   "version": "0.0.1",
-  "description": "Helper that using pip mode in twitch.tv",
+  "description": "Helper that using pip mode",
   "permissions": [
     "activeTab"
   ],
@@ -12,7 +12,7 @@
     "persistent": false
   },
   "browser_action": {
-    "default_title": "s"
+    "default_title": ""
   },
   "commands": {
     "pip": {
